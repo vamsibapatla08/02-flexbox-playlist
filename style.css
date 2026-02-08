@@ -13,9 +13,13 @@ body {
 
 .container {
   display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 18px;
+  justify-content: flex-start;
+  max-width: 950px;
+  margin: 0 auto;
+  overflow-x: auto;
+  padding-bottom: 15px;
 }
 
 /* Header styling */
@@ -35,6 +39,7 @@ header h1 {
   width: 220px; 
   background: #fff;
   border: 1px solid #ddd;
+  flex: 0 0 220px;
 }
 
 .album img {
