@@ -16,7 +16,7 @@ body {
   flex-wrap: nowrap;
   gap: 18px;
   justify-content: flex-start;
-  max-width: 950px;
+  max-width: 934px;
   margin: 0 auto;
   overflow-x: auto;
   padding-bottom: 15px;
@@ -63,5 +63,5 @@ header h1 {
 }
 
 .overlay {
- display: none;
+ display: flex;
 }
